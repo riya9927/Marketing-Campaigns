@@ -34,8 +34,8 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/riya9927/Marketing-Campaigns.git
+   cd Marketing-Campaigns
    ```
 
 2. **Install dependencies**
