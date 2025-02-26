@@ -57,12 +57,3 @@ To set up the project locally, follow these steps:
 - [ ] Perform feature engineering for predictive modeling 🔍
 - [ ] Train ML models for customer segmentation 🤖
 
-## 🤝 Contributing
-Contributions are welcome! Feel free to fork the repo and submit a pull request. 🚀
-
-## 📄 License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-🔗 **Let's Connect:** [LinkedIn](https://www.linkedin.com/in/your-profile) | [GitHub](https://github.com/your-username)
-
