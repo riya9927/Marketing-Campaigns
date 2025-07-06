@@ -17,7 +17,7 @@ if uploaded_file:
     
     df.columns = df.columns.str.strip()
     df['Income'] = df['Income'].str.replace(r'[\$,]', '', regex=True).astype(float)
-    df['Dt_Customer'] = pd.to_datetime(df['Dt_Customer'], format='%m/%d/%y')
+    df['Dt_Customer'] = pd.to_datetime(df['Dt_Customer'], format='mixed', dayfirst=True, errors='coerce')
     df['Income'] = df.groupby(['Education', 'Marital_Status'])['Income'].transform(lambda x: x.fillna(x.mean()))
 
     df['Education'] = df['Education'].replace({
