@@ -22,7 +22,7 @@ The dataset used in this analysis is **marketing_data.csv**, which contains:
 - Customer acquisition details (`Dt_Customer`).
 
 ## 🛠️ Tech Stack
-- **Programming Language:** Python 🐍
+- **Programming Language:** Python 
 - **Libraries Used:**
   - Pandas 📊
   - NumPy 🔢
@@ -45,15 +45,14 @@ To set up the project locally, follow these steps:
 
 3. **Run the analysis**
    ```sh
-   python analysis.py
+   python app.py
    ```
+   (Please upload the marketing_data.csv file to proceed.)
 
 ## 📈 Usage
-- Run `analysis.py` to perform data preprocessing and visualization.
+- Run `app.py` to perform data preprocessing and visualization.
 - Modify `marketing_data.csv` to analyze new datasets.
 
 ## 📌 To-Do
-- [ ] Implement advanced visualizations 📊
-- [ ] Perform feature engineering for predictive modeling 🔍
 - [ ] Train ML models for customer segmentation 🤖
 
